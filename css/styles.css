@@ -9,6 +9,23 @@ h3 {
     color: purple;
 }
 
+@media screen and (max-width: 50rem) {
+    header, 
+    main, 
+    footer {
+        flex-direction: column;
+    }
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+}
+header nav{
+    flex: 1;
+}
+
 header nav a:hover{
     color:azure;    
 }
